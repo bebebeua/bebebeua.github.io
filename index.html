@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Астория</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style></style>
+
+</head>
+
+<body style="background-image: url(img/front.jpg);">
+
+	<div class="wrapper grid">
+		<header class="main-header">
+			<div class="header-content grid">
+				<div class="top-logo grid">
+					<a class="logo" href="index.html"><img src="img/logo-white.svg" alt="Астория"></a>
+				</div>
+
+		<!-- 		<div class="mobile-mnu visible-xs">
+					<a href="#" class="toggle-mnu "><i class="fa fa-bars fa-lg" aria-hidden="true"></i><h4>Меню</h4></a>
+					<a href="bronirovanie.html" class="mobile-mnu-reg"><h4>Бронирование</h4><i class="fa fa-calendar-check-o fa-lg" aria-hidden="true"></i></a>
+				</div> -->
+
+				<div class="top-line grid">
+					<ul class="menu grid">
+						<li><a href="nomera.html">Номера</a></li>
+						<li><a href="bronirovanie.html">Бронирование</a></li>
+						<li><a href="services.html">Услуги</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="lang grid">
+					<i class="fa fa-globe fa-2x"></i>
+					<!-- <a href="">укр</a>
+					<div class="sepr"></div>
+					<a href="">en</a>
+					<div class="sepr"></div>
+					<a href="" class="active">рус</a> -->
+				</div>
+			</div>
+		</header>
+
+		<article class="main-body grid">
+			
+			<h1>Отель Астория</h1>
+			<p>Добро пожаловать!</p>
+
+			<input type="checkbox" id="reserv-menu-toggle" hidden>
+			<div class="reserv-menu">
+				<label for="reserv-menu-toggle" class="reserv-menu-toggle" onclick>Найти номер</label>
+				<div class="reserv-menu-info">
+					Меню бронирования
+				</div>
+			</div>
+
+		</article>
+
+		<!-- <div class="footer-open grid">
+			<span>Контакты</span>
+			<i class="fa fa-angle-up fa-3x" aria-hidden="true"></i>
+		</div> -->
+		<input type="checkbox" id="footer-menu-toggle" hidden>
+		<label for="footer-menu-toggle" class="footer-menu-toggle" onclick>Подробнее</label>
+
+		<footer class="main-footer">
+			<div class="footer-info grid">
+				<div class="footer-info-column footer-info-address grid">
+					<p class="footer-info-column-head address-head">Отель Астория</p>
+					<a href="contacts.html">
+						<p>49000, Украина, г.Днепр</p>
+						<p>пр. Дмитрия Яворницкого, 66</p>
+					</a>
+					<div class="spr"></div>
+					<p class="copy">&copy; Отель «Астория», Днепр, 2017. Официальный сайт.</p>
+				</div>
+				<div class="footer-info-column footer-info-contact grid">
+					<p class="footer-info-column-head contact-head">Контакты</p>
+					<p class="contact-name">Телефон</p>
+					<p>+38 (056) 376-03-00</p>
+					<p>+38 (067) 859-34-95</p>
+					<p>+38 (099) 097-96-21</p>
+					<div class="spr"></div>
+					<p class="contact-name">Факс</p>
+					<p>+38 (056) 376-03-30 </p>
+					<div class="spr"></div>
+					<p class="contact-name">E-mail</p>
+					<a href="mailto:">mail@astoria.com.ua</a>
+				</div>
+				<div class="footer-info-column footer-info-info grid">
+					<p class="footer-info-column-head info-head">Информация</p>
+					<a href="#">История</a>
+					<div class="spr"></div>
+					<a href="#">Услуги</a>
+					<div class="spr"></div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
